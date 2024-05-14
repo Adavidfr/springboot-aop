@@ -13,5 +13,4 @@ public class GreetingController {
     public ResponseEntity<?> greeting() {
         return ResponseEntity.ok(Collections.singletonMap("greeting", null));
     }
-
 }
